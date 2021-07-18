@@ -13,72 +13,72 @@ const Amenities = () => {
                     <div className="Amen_icons_main relative flex justify-between mr-8 my-4">
 
                         <div className="Amen_icon_col">
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start my-8 ml-8 cursor-pointer">
                                 <img src="images/Group 22.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Spa</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex cursor-pointer justify-start my-8 ml-8">
                                 <img src="images/Group 93.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Gym</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex cursor-pointer justify-start my-8 ml-8">
                                 <img src="images/Group 95.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Gym</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex cursor-pointer justify-start my-8 ml-8">
                                 <img src="images/Group 95.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Cycle track</h1>
                             </div>
                         </div>
 
                         <div className="Amen_icon_col">
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 103.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Swimming pool</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 103.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Swimming pool</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 98.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Canteen</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 96.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Mall</h1>
                             </div>
                         </div>
 
                         <div className="Amen_icon_col">
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 93.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Swimming pool</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 98.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Swimming pool</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 97.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Garden</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 98.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Playground</h1>
                             </div>
                         </div>
 
                         <div className="Amen_icon_col">
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 22.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Airport</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 93.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Airport</h1>
                             </div>
-                            <div className="flex justify-start my-8 ml-8">
+                            <div className="flex justify-start cursor-pointer my-8 ml-8">
                                 <img src="images/Group 95.svg" alt="" />
                                 <h1 className="font-light text-3xl font-roboto mt-1.5 text-white ml-4">Swimming </h1>
                             </div>
