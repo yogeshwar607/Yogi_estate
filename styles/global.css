@@ -23,3 +23,6 @@ background-size: contain;
     background-image: url(../public/images/footer\ bg.png);
     background-repeat: no-repeat;
 }
+.message-input{
+    width: 98% !important;
+}
