@@ -4,7 +4,7 @@ const Border = ({width, color}) => {
     return (
         <div>
             <div className='flex justify-center'>
-            <p className={`border-b-2  border-${color} w-${width} `}></p>
+            <p className={`border-2  w-${width} `}></p>
             </div>
         </div>
     )

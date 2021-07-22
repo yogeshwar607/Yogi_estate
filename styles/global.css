@@ -3,26 +3,168 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-.header_main{
-background-image: url(../public/images/hero\ bg.png);
-background-repeat: no-repeat;
-background-size: contain;
+
+body {
+    font-family: 'Montserrat';
 }
-.Amen_bg{
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.header_main {
+    background-image: url(../public/images/hero\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-card {
+    max-width: 415px;
+}
+
+.header-overlay-image {
+    height: 730px;
+}
+
+.Amen_bg {
     background-image: url(../public/images/amenity\ bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.contact_main{
+.Amen_slider{
+    width: 70%;
+}
+.contact_main {
     background-image: url(../public/images/footer\ bg.png);
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
-.message-input{
+
+
+
+.client-title {
+    font-size: 42px;
+}
+/* Slider Pagination */
+.swiper-pagination{
+    position: absolute !important;
+    left: 0px !important;
+    width: 50% !important;
+}
+.swiper-pagination-bullet{
+    width: 50px !important;
+    border-radius: 4px !important;
+    height: 5px !important;
+}
+.swiper-pagination-bullet-active{
+    background-color: white !important;
+    color: white !important;
+}
+.swiper-pagination-bullet{
+    background: #C4C4C4 !important;
+    color: #C4C4C4 !important;
+}
+
+/* Client Slider */
+.client-slider{
+    width: 70%;
+}
+.header-contact{
+    writing-mode:vertical-rl;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+/* Contact Form */
+.contact-form-wrapper{
+    width: 1070px;
+}
+.contact-form{
+   
+    width: 100%;
+    
+}
+.text-input.name{
+    margin-right: 20px;
+}
+.text-input{
+    width: 48% !important;
+}
+.message-input {
     width: 98% !important;
+}
+.text-input.email{
+    margin-right: 20px;
+}
+.testimonial-left{
+    border-right: 1px solid black;
+    border-bottom: none;
+}
+@media only screen and (max-width: 768px) {
+    .header_main {
+        background-size: cover;
+        height: 400px;
+    }
+    .header-card {
+        max-width: 100%;
+    }
+    .Amen_slider{
+        width: 100%;
+    }
+    .client-slider{
+        width: 100%;
+    }
+    .testimonial-left{
+        border-right: none;
+        border-bottom: 1px solid black;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .contact-form{
+        width: 100%;
+    }
+    .text-input.name{
+        margin-right: 0px;
+    }
+    .text-input{
+        width: 100% !important;
+    }
+    .text-input.email{
+        margin-bottom: 20px !important;
+    }
+    .message-input {
+        width: 100% !important;
+    }
+    .client-title {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1250px) {
+.header-card{
+    margin-left: 100px;
+}
+.header_Image{
+    width: 85%;
+}
+.header-contact.number{
+    top: 100px;
+}
+.header-contact.schedule{
+    bottom: 0px;
+}
+.location-box{
+    margin-bottom: -120px;
+}
 }

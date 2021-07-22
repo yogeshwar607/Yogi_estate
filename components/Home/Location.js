@@ -1,22 +1,27 @@
 import React from 'react'
-
+import {locationData} from '../../constants/constant'
 const Location = () => {
     return (
-        <div className="relative">
-
-            <div className="Main_loc flex justify-center">
-                <div>
-                    <h1 className="font-medium text-4xl font-montserrat mt-4 mb-4 ml-8 text-primary">Locations</h1>
-                    <p className="font-normal text-xs font-montserrat mt-6 mb-8 ml-8 mr-4 text-secondary max-w-sm">Neque, viverra nibh morbi in proin vel. Maecenas cursus sit eu ultrices amet elit. Amet scelerisque pellentesque vel tellus condimentum malesuada sagittis faucibus pretium. Tellus, mauris eget urna purus, nam. Rhoncus in diam sapien fames at urna mi. </p>
+        <div className='container'>
+            <div className="relative">
+                <div className="flex flex-col md:flex-row justify-center px-8 md:px-0">
+                    <div className='pl-1 md:pl-0 mb-6'>
+                        <h1 className="font-medium text-lg md:text-4xl font-montserrat mt-4 md:mb-4 md:ml-8 text-primary">{locationData.title}</h1>
+                        <p className="font-normal text-xs font-montserrat mt-3 md:mt-6 md:mb-8 md:ml-8 md:mr-4 text-secondary max-w-sm">
+                           {locationData.description}
+                        </p>
+                    </div>
+                    <div>
+                        <img src={locationData.mapImage} alt="" className='w-full'/>
+                    </div>
                 </div>
-                <div>
-                    <img src="images/map.png" alt="" />
+                <div className="md:absolute md:bottom-44 md:left-8 location-box bg-whitecolor mx-9 md:mx-0 pt-7 pb-11 shadow-lg px-8">
+                    <h1 className="font-normal text-base md:text-2xl font-montserrat pb-4   text-primary">{locationData.boxtitle}</h1>
+                    <p className="font-normal text-sm md:text-lg font-montserrat pb-8  text-secondary max-w-xl">
+                   {locationData.boxDescription}
+                    </p>
+                    <a className="text-white border-2 border-primary font-montserrat font-medium text-base md:text-xl  bg-primary py-3 px-5 hover:text-primary hover:bg-white hover:duration-500" href="#">{locationData.boxButon}</a>
                 </div>
-            </div>
-            <div className="absolute bottom-44 left-8 bg-whitecolor pb-8 shadow-lg">
-                <h1 className="font-normal text-base font-montserrat mt-6 mb-10 ml-10 text-primary">ADITYA HEIGHTS</h1>
-                <p className="font-normal text-xs font-montserrat mt-4 mb-10 ml-10 text-secondary max-w-xl">Neque, viverra nibh morbi in proin vel. Maecenas cursus sit eu ultrices amet elit. Amet scelerisque pellentesque vel tellus condimentum malesuada sagittis faucibus pretium. </p>
-                <a className="text-primary mt-8 mb-10 ml-10 font-montserrat font-medium text-xl border border-primary py-2 px-4 hover:bg-primary hover:text-white hover:duration-500" href="#">Contact us</a>
             </div>
         </div>
     )

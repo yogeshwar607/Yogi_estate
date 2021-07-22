@@ -11,7 +11,8 @@ module.exports = {
         grayLight: '#E5E5E5',
         transparentBg: 'rgba(228, 228, 228, 0.3)',
         whitecolor: '#FFFFFF',
-        fadeprimary: 'rgba(250, 249, 246, 0.29)'
+        fadeprimary: 'rgba(250, 249, 246, 0.29)',
+        clientbg:'#E4E4E4'
 
       },
       fontFamily:{

@@ -1,17 +1,21 @@
 import React from 'react'
-import Border from '../Border'
+import {overviewData} from '../../constants/constant'
+
 const Overview = () => {
     return (
-        <div className='w-full bg-white'>
-            <div className='max-w-6xl mx-auto'>
-                <h1 className="font-medium text-4xl font-montserrat mt-24 mb-8 text-primary text-center ">OVERVIEW</h1>
-                <span className="font-normal text-2xl font-montserrat mb-1 text-secondary  py-2 px-4 flex justify-center" href="#">Aditya Heights, Pune</span>
-               <div className = "mb-8">
-               <Border  color={'gray-900'} width={'64'} />
-               </div>
-                 <p className="font-normal text-2xl font-montserrat mb-8 text-secondary text-center px-20">Neque, viverra nibh morbi in proin vel. Maecenas cursus sit eu ultrices amet elit. Amet scelerisque pellentesque vel tellus condimentum malesuada sagittis faucibus pretium. Tellus, mauris eget urna purus, nam. Rhoncus in diam sapien fames at urna mi. Neque, viverra nibh morbi in proin vel. Maecenas cursus sit eu ultrices amet elit. Amet scelerisque pellentesque vel tellus condimentum malesuada sagittis faucibus pretium. Tellus, mauris eget urna purus, nam. Rhoncus in diam sapien fames at urna mi. Neque, viverra nibh morbi in proin vel. Maecenas cursus sit eu ultrices amet elit. Amet scelerisque pellentesque vel tellus condimentum malesuada sagittis faucibus pretium. Tellus, mauris eget urna purus, nam. Rhoncus in diam sapien fames at urna mi. </p>
-                <div className=" flex justify-center my-8 ">
-                    <a className=" border  border-primary bg-primary text-whitecolor font-montserrat font-medium  text-xl py-2 px-8 capitalize hover:bg-white hover:text-primary hover:duration-500" href="#"> Download brocture</a>
+        <div className='w-full bg-white z-0'>
+            <div className='md:max-w-7xl mx-auto 2xl:container'>
+                <h1 className="font-medium text-xl md:text-4xl font-montserrat mt-80 md:mt-36 mb-3 md:mb-8 text-primary text-center ">{overviewData[0].title}</h1>
+                <span className="font-normal text-sm md:text-2xl font-montserrat  text-secondary  py-2 px-4 flex justify-center">{overviewData[0].subTitle}</span>
+                <div className="mb-8">
+                    <div className='flex justify-center'>
+                        <p className="border-b border-black w-36 md:w-64  "></p>
+                    </div>
+                </div>
+                <p className="font-normal text-sm md:text-2xl font-montserrat mb-8 text-secondary text-center px-8 md:px-16">{overviewData[0].description} </p>
+                <div className='flex justify-center py-4 mb-3'>
+                    <img src='/images/arrow.svg' alt='' className='pr-2 pl-8  bg-primary py-2.5 ' />
+                    <a className=' bg-primary py-2.5 pr-8 text-base md:text-xl text-white font-normal '>{overviewData[0].buttonText}</a>
                 </div>
             </div>
         </div>
