@@ -1,15 +1,15 @@
 export const navbarData = [
     {
-        title: 'Overview'
+        title: 'overview'
     },
     {
-        title: 'Amenities'
+        title: 'amenities'
     },
     {
-        title: 'Location'
+        title: 'location'
     },
     {
-        title: 'Testimonials'
+        title: 'testimonials'
     },
 ]
 export const Header_ADITYA_HEIGHTS = {

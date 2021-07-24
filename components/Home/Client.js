@@ -67,14 +67,14 @@ const Client = () => {
     return (
         <div className='bg-clientbg w-full px-8 md:px-0 pb-20 md:pb-96'>
 
-            <div className=" max-w-5xl mx-auto">
-                <h1 className="font-medium client-title font-montserrat mt-24 pt-7 mb-3  text-primary ">{testimonialData.title}</h1>
+            <div className=" max-w-5xl mx-auto px-4">
+                <h1 className="font-medium client-title font-montserrat pt-44 md:mt-24 md:pt-7 mb-3  text-primary ">{testimonialData.title}</h1>
                 <p className="font-normal text-xs font-montserrat  text-secondary mb-12 max-w-2xl">{testimonialData.description} </p>
                 <div className='relative'>
                     <div className='md:absolute md:left-0 md:right-0'>
-                        <div className="flex flex-col md:flex-row bg-primary py-4">
+                        <div className="sliderwrap bg-primary py-4">
 
-                            <div className=" md:w-96 my-6  pt-10 md:pl-8 pr-10 testimonial-left border-black">
+                            <div className="sliderLeft  my-6  pt-10 md:pl-8 pr-10 testimonial-left border-black">
                                <div className='flex justify-center '>
                                <img className="ml-8" src={testimonialData.image} alt="" />
                                </div>
@@ -93,7 +93,7 @@ const Client = () => {
                                         return (
                                             <SwiperSlide key={index}>
                                                 <div>
-                                                    <p className="font-normal bg-fadeprimary text-sm md:text-xl font-montserrat mt-12 mx-8 md:mx-10 mb-10 px-6 py-8 text-secondary">
+                                                    <p className="font-normal sliderpara bg-fadeprimary text-sm md:text-xl font-montserrat mt-12 mx-8 md:mx-10 mb-10 px-6 py-8 text-secondary">
                                                         {data.comments}
                                                     </p>
                                                 </div>
